@@ -1,0 +1,265 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*стили*/
+
+/*header*/
+body {
+    font-family: "Poppins";
+    background: #F3F3F3;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.menu-left {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.list__ul {
+    display: flex;
+    gap: 34px;
+}
+
+.list__li {
+    color: #393E46;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*hero-baner*/
+
+.hero, .header {
+    background-color: #fff;
+}
+
+.hero {
+    margin-bottom: 58px;
+}
+
+.hero-hed {
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hed-h2 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-backr {
+    position: absolute;
+    max-width: 515px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    top: 128px;
+    margin-top: 128px;
+    margin-left: 92px;
+}
+
+.wrapper-hero {
+}
+
+.back-img {
+}
+
+.block-hero-header {
+    margin-bottom: 56px;
+}
+
+.block-hero-price {
+    margin-bottom: 17px;
+}
+
+.hero-price {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.wrapper-button {
+    display: flex;
+    gap: 12px;
+}
+
+.button-black {
+    color: #fff;
+    border-radius: 15px;
+    background: #000;
+    padding: 10px;
+}
+
+.button-org {
+    border-radius: 15px;
+    background: #FFCA00;
+    padding: 10px;
+    color: #000;
+}
+
+.button-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.category {
+    margin-bottom: 60px;
+}
+
+.linck-category {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.wrapper-block-category {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.block-category {
+    max-width: 315px;
+    width: 100%;
+    border-radius: 30px;
+    background: #FFF;
+    padding: 40px 30px;
+    gap: 18px;
+}
+
+.text-category {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.model__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+    margin-bottom: 38px;
+}
+
+.model__span {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.model__head h2 {
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.model__product {
+    max-width: 315px;
+    border-radius: 30px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    padding: 26px 41px;
+    text-align: center;
+}
+
+.product {
+    display: flex;
+    gap: 20px;
+}
+
+.model__name {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.model__desc {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.model__price {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
