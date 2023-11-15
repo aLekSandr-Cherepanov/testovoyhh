@@ -229,10 +229,6 @@ body {
     line-height: normal;
 }
 
-.product__img {
-    width: 100%;
-}
-
 .model__product {
     max-width: 315px;
     border-radius: 30px;
@@ -375,5 +371,11 @@ body {
     }
     .text-backr {
         margin: 0;
+    }
+    .product__img {
+        width: 100%;
+    }
+    .product__img1 {
+        width: initial;
     }
 }
