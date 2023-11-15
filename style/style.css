@@ -55,6 +55,7 @@ body {
 .container {
     max-width: 1320px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .menu-wrapper {
@@ -202,6 +203,10 @@ body {
     line-height: normal;
 }
 
+.model {
+    margin-bottom: 60px;
+}
+
 .model__head {
     display: flex;
     flex-direction: column;
@@ -222,6 +227,10 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.product__img {
+    width: 100%;
 }
 
 .model__product {
@@ -262,4 +271,109 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.footer {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.footer__topBlock {
+    max-width: 315px;
+    width: 100%;
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #F3F3F3;
+}
+
+.footer__wrapper-topBlock {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.footer__topBlock-head {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer__topBlock-span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer__hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__head-list {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer__ul a {
+    text-decoration: none;
+}
+
+.footer__li {
+    color: #000;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer__block-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.footer__block-list span {
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+@media (max-width: 1250px) {
+    .wrapper-block-category {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .product {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 950px) {
+    .product {
+        justify-content: center;
+    }
+    .footer__wrapper-topBlock {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer__hero {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .menu-wrapper {
+        display: none;
+    }
+    .text-backr {
+        margin: 0;
+    }
 }
